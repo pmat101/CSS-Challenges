@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cfdfe0;
+}
+
+.btn {
+  font-weight: 700;
+  color: #eee;
+  background: linear-gradient(#274b81, #01174c);
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  box-shadow: 0 1rem 1rem 0.5rem #888;
+}
+
+.btn-text-two {
+  display: none;
+}

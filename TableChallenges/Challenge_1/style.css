@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+* {
+  font-family: "poppins", "verdana";
+  color: #fff;
+  background-color: #111;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.yo {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.yo h3 {
+  align-self: center;
+}
+
+.yo input {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.1rem;
+}
+
+select,
+option {
+  background-color: #fff;
+  color: #000;
+  margin-left: 0.2rem;
+}
+
+button {
+  margin-top: 0.8rem;
+}
+
+b {
+  background-color: teal;
+  color: #000;
+  padding: 0.8rem 8rem;
+  border: none;
+  border-radius: 0.8rem;
+}
